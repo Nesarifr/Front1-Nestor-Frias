@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap');
+
+* { box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Be Vietnam Pro";}
+a {
+    text-decoration: none;
+}
+ul{ 
+    list-style-type: none ;
+}
+
+.background{
+    background: url(../img/bg-tablet-pattern.svg), url(../img/bg-tablet-pattern.svg) ;
+    background-repeat: no-repeat, no-repeat;
+    background-position: right -65px top -25px, right 10px bottom 50%;
+    background-size: 400px , 200px;
+    max-width: 100vw;
+}
+
+/* Cabecera */
+.cabecera {
+    display: flex;
+    height: 174px;
+    align-items: center;
+    justify-content: space-around;
+}
+#btn-menu {
+    display: none;
+}
+
+.cabecera label{
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 10px;
+}
+.cabecera label:hover{
+    cursor: pointer;
+}
+.GetStarted {
+    display: block;
+}
+
+/* Cabecera END */
+
+/*Banner Principal*/
+.BannerPrincipal {
+    display: flex;
+    flex-direction: column-reverse  ;
+    padding: 5px;
+}
+.BannerBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0px;
+
+}
+.BannerBox h1 {
+    color: #232C50;
+    font-size: 2.3rem;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+.BannerBox p{
+    color: #B3B2B7;
+    font-size: 1rem;
+    line-height: 1.5rem ;
+    font-weight:100;
+    padding: 10px 20px;
+}
+
+#graficos img {
+    width: 100vw;
+    padding: 5px;
+}
+
+.GetStarted {
+    justify-content: center;
+    background-color: #F3603B;
+    border: none;
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+    border-radius: 50px;
+    width: 134px;
+    height: 44px;
+    left: 0px;
+    top: 325px;
+    margin: 20px;
+}
+
+.GetStarted a {
+    color: #ffff ;
+    font-style: normal;
+    font-weight: 500;
+}
+
+#aboutUs {
+    display: flex;
+    flex-direction: column;
+}
+#presentacion {
+    align-items: center;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+
+
+
+#aboutUs h2{
+    color: #232C50;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+#aboutUs h5{
+    color: #232C50;
+    background-color: #f3603b2d;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 10px 0px;
+}
+#aboutUs p{
+    color: #B3B2B7;
+    font-size: 1rem;
+    line-height: 1.5rem ;
+    font-weight:100;
+    padding: 10px 20px;
+}
+
+@media (min-width:376px) {
+
+    .background{
+        background-size: 600px;
+        max-width: 100vw;
+        z-index: -10;
+    }
+
+
+
+
+
+
+
+
+}
